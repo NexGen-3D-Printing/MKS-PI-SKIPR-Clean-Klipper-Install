@@ -55,9 +55,13 @@ sudo rm -r printer_data
 
 sudo rm -r gcode_files
 
-sudo reboot
+sudo reboot (Probably not needed, but cant hurt)
 
-log back into ssh after the MKS-PI reboots
+log back into ssh after the MKS-PI reboots:
+
+ssh mks@192.168.0.111 (replace address with the correct one)
+
+Password: makerbase
 
 then type:
 
