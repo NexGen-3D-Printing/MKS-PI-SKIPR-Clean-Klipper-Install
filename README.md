@@ -1,13 +1,17 @@
 # MKS-PI-Clean-Klipper-Install
 Unscrew the Klipper installation on the MKS-PI
 
-Step 1: Righ now is a good time to download/ backup all your config files and any G-code files and macros you have.
+Step 1: Right now is a good time to download/backup all your config files and any G-code files and macros you have.
 
 Warning: All care is taken, no responsability accepted, if you FUBAR your install, you will have to reflash your drive, so refer back to step one.
 
 Step 2: All this crap below :)
 
-Log in via SSH, on windows, just use command propt, you dont need putty or anything else.
+Log in via SSH, on windows, just use command propt, you dont need putty or anything else:
+
+ssh mks@192.168.0.111 (replace address with the correct one)
+
+Password: makerbase
 
 Once you have logged in, type the following commands:
 
