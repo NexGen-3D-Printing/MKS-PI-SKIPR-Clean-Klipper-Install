@@ -9,13 +9,13 @@ Step 2: All this crap below :)
 
 Log in via SSH, on windows, just use command propt, you dont need putty or anything else.
 
-Once you have logged in, type the following commands
+Once you have logged in, type the following commands:
 
 sudo apt update
 
 sudo apt upgrade
 
-Wait for it to complete
+Wait for it to complete, then type:
 
 cd ~
 
@@ -25,13 +25,13 @@ Now the Kiauh intoface will come up, and uninstall Fluid, Klipper and Moonraker.
 
 Once they are all removed, then exit
 
-Type the following
+Type the following:
 
 cd ~
 
 ls -a
 
-That will show you a list of files and folders under the user folder, so much crap installed that shouldnt really be there.
+That will show you a list of files and folders under the user folder, so much crap installed that shouldnt really be there, not needed, but its nice to see what crap Makerbase left on the image.
 
 Anyway, deleate everything to do with Klipper:
 
@@ -53,7 +53,7 @@ sudo rm -r gcode_files
 
 sudo reboot
 
-log back into ssh after the MKS-PI rebbots
+log back into ssh after the MKS-PI reboots
 
 then type:
 
@@ -67,6 +67,10 @@ Once it completes. then type:
 
 The Kiauh interface will load, and you can install klipper, then moonraker then Mainsail, note, due to this being and an un official OS it has an outdated version of Python, so when Kiauh asks, choose version 2.7.
 
-Once all thats completed, you now how an unfucked version of Klipper installed.
+Once all thats completed, you now hove an unfucked version of Klipper installed.
 
 Upload you config files and you should be good to go
+
+Regards
+
+NexGen-3D
