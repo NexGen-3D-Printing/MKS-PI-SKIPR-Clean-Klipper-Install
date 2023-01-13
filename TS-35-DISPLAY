@@ -1,0 +1,10 @@
+Backup:
+sudo cp /boot/dtb/rockchip/rk3328-roc-cc.dtb /boot/dtb/rockchip/rk3328-roc-cc.dtb.bak
+
+Download and copy above files
+
+Copy this one without rotation:
+sudo cp rk3328-roc-cc_0.dtb /boot/dtb/rockchip/rk3328-roc-cc.dtb
+
+Move calibration to:
+sudo cp 99-calibration.conf /usr/share/X11/xorg.conf.d/ (edited)
