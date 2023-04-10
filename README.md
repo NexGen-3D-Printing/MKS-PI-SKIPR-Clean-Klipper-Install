@@ -1,5 +1,5 @@
-# MKS-PI-Clean-Klipper-Install
-Unscrew the Klipper installation on the MKS-PI
+# MKS-PI-SKIPR-Clean-Klipper-Install
+Unscrew the Klipper installation on the MKS-PI and MKS-SKIPR
 
 Step 1: Right now is a good time to download/backup all your config files and any G-code files and macros you have.
 
