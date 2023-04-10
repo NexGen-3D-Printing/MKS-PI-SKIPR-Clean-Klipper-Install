@@ -75,7 +75,7 @@ Once it completes. then type:
 
 The Kiauh interface will load, and you can install klipper, then moonraker then Mainsail, note, due to this being and an un official OS it has an outdated version of Python, so when Kiauh asks, choose version 2.7.
 
-Once all thats completed, you now hove an unfucked version of Klipper installed.
+Once all thats completed, you now have an un-screwed version of Klipper installed.
 
 Upload you config files and you should be good to go
 
